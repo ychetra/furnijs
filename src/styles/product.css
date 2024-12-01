@@ -1,0 +1,62 @@
+.product-section .product-item {
+  display: flex;
+  flex-direction: column;
+  height: 450px; /* Fixed height for all cards */
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.product-section .product-thumbnail {
+  height: 250px; /* Fixed height for image container */
+  width: 100%;
+  object-fit: contain; /* Maintains aspect ratio */
+  margin-bottom: 15px;
+}
+
+.product-section .product-title {
+  font-size: 16px;
+  height: 48px; /* Fixed height for two lines of text */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-bottom: 10px;
+}
+
+.product-section .product-price {
+  margin-top: auto; /* Pushes price to bottom */
+  font-size: 18px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.product-section .icon-cross {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Hover effects */
+.product-section .product-item:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-section .product-item:hover .product-thumbnail {
+  transform: translateY(-10px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .product-section .product-item {
+    height: 400px;
+  }
+  
+  .product-section .product-thumbnail {
+    height: 200px;
+  }
+} 
