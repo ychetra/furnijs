@@ -5,7 +5,7 @@ function Index() {
     <>
       <nav
         className="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark"
-        arial-label="Furni navigation bar"
+        arial-label="Tra navigation bar"
       >
         <Menu/>
       </nav>
@@ -594,7 +594,7 @@ function Index() {
             <div className="col-lg-4">
               <div className="mb-4 footer-logo-wrap">
                 <a href="#" className="footer-logo">
-                  Furni<span>.</span>
+                  Tra<span>.</span>
                 </a>
               </div>
               <p className="mb-4">

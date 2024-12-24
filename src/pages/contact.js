@@ -6,7 +6,7 @@ function Contact() {
     <>
       <nav
         className="custom-navbar navbar navbar-expand-md navbar-dark bg-dark"
-        aria-label="Furni navigation bar"
+        aria-label="Tra navigation bar"
       >
         <Menu />
       </nav>
@@ -235,7 +235,7 @@ function Contact() {
             <div className="col-lg-4">
               <div className="mb-4 footer-logo-wrap">
                 <a href="#" className="footer-logo">
-                  Furni<span>.</span>
+                  Tra<span>.</span>
                 </a>
               </div>
               <p className="mb-4">
