@@ -8,7 +8,7 @@ function About() {
         className="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark"
         arial-label="Tra navigation bar"
       >
-        <Menu/>
+        <Menu />
       </nav>
 
       <div className="hero">
@@ -34,7 +34,10 @@ function About() {
             </div>
             <div className="col-lg-7">
               <div className="hero-img-wrap">
-                <img src="ASSETS/images/couch.png" className="img-fluid" />
+                <img
+                  scr="reactjs/assets/images/couch.png"
+                  className="img-fluid"
+                />
               </div>
             </div>
           </div>
@@ -56,7 +59,7 @@ function About() {
                   <div className="feature">
                     <div className="icon">
                       <img
-                        src="ASSETS/images/truck.svg"
+                        scr="reactjs/assets/images/truck.svg"
                         alt="Image"
                         className="imf-fluid"
                       />
@@ -72,7 +75,11 @@ function About() {
                 <div className="col-6 col-md-6">
                   <div className="feature">
                     <div className="icon">
-                      <img src="ASSETS/images/bag.svg" alt="Image" className="imf-fluid" />
+                      <img
+                        scr="reactjs/assets/images/bag.svg"
+                        alt="Image"
+                        className="imf-fluid"
+                      />
                     </div>
                     <h3>Easy to Shop</h3>
                     <p>
@@ -86,7 +93,7 @@ function About() {
                   <div className="feature">
                     <div className="icon">
                       <img
-                        src="ASSETS/images/support.svg"
+                        scr="reactjs/assets/images/support.svg"
                         alt="Image"
                         className="imf-fluid"
                       />
@@ -103,7 +110,7 @@ function About() {
                   <div className="feature">
                     <div className="icon">
                       <img
-                        src="ASSETS/images/return.svg"
+                        scr="reactjs/assets/images/return.svg"
                         alt="Image"
                         className="imf-fluid"
                       />
@@ -121,7 +128,7 @@ function About() {
             <div className="col-lg-5">
               <div className="img-wrap">
                 <img
-                  src="ASSETS/images/why-choose-us-img.jpg"
+                  scr="reactjs/assets/images/why-choose-us-img.jpg"
                   alt="Image"
                   className="img-fluid"
                 />
@@ -141,7 +148,10 @@ function About() {
 
           <div className="row">
             <div className="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-              <img src="ASSETS/images/person_1.jpg" className="img-fluid mb-5" />
+              <img
+                scr="reactjs/assets/images/person_1.jpg"
+                className="img-fluid mb-5"
+              />
               <h3 clas>
                 <a href="#">
                   <span className="">Lawson</span> Arnold
@@ -160,7 +170,10 @@ function About() {
             </div>
 
             <div className="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-              <img src="ASSETS/images/person_2.jpg" className="img-fluid mb-5" />
+              <img
+                scr="reactjs/assets/images/person_2.jpg"
+                className="img-fluid mb-5"
+              />
 
               <h3 clas>
                 <a href="#">
@@ -180,7 +193,10 @@ function About() {
             </div>
 
             <div className="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-              <img src="ASSETS/images/person_3.jpg" className="img-fluid mb-5" />
+              <img
+                scr="reactjs/assets/images/person_3.jpg"
+                className="img-fluid mb-5"
+              />
               <h3 clas>
                 <a href="#">
                   <span className="">Patrik</span> White
@@ -199,7 +215,10 @@ function About() {
             </div>
 
             <div className="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-              <img src="ASSETS/images/person_4.jpg" className="img-fluid mb-5" />
+              <img
+                scr="reactjs/assets/images/person_4.jpg"
+                className="img-fluid mb-5"
+              />
 
               <h3 clas>
                 <a href="#">
@@ -262,7 +281,7 @@ function About() {
                           <div className="author-info">
                             <div className="author-pic">
                               <img
-                                src="ASSETS/images/person-1.png"
+                                scr="reactjs/assets/images/person-1.png"
                                 alt="Maria Jones"
                                 className="img-fluid"
                               />
@@ -297,7 +316,7 @@ function About() {
                           <div className="author-info">
                             <div className="author-pic">
                               <img
-                                src="ASSETS/images/person-1.png"
+                                scr="reactjs/assets/images/person-1.png"
                                 alt="Maria Jones"
                                 className="img-fluid"
                               />
@@ -332,7 +351,7 @@ function About() {
                           <div className="author-info">
                             <div className="author-pic">
                               <img
-                                src="ASSETS/images/person-1.png"
+                                scr="reactjs/assets/images/person-1.png"
                                 alt="Maria Jones"
                                 className="img-fluid"
                               />
@@ -356,7 +375,11 @@ function About() {
       <footer className="footer-section">
         <div className="container relative">
           <div className="sofa-img">
-            <img src="ASSETS/images/sofa.png" alt="Image" className="img-fluid" />
+            <img
+              scr="reactjs/assets/images/sofa.png"
+              alt="Image"
+              className="img-fluid"
+            />
           </div>
 
           <div className="row">
@@ -365,7 +388,7 @@ function About() {
                 <h3 className="d-flex align-items-center">
                   <span className="me-1">
                     <img
-                      src="ASSETS/images/envelope-outline.svg"
+                      scr="reactjs/assets/images/envelope-outline.svg"
                       alt="Image"
                       className="img-fluid"
                     />
@@ -530,9 +553,9 @@ function About() {
         </div>
       </footer>
 
-      <script src="ASSETS/js/bootstrap.bundle.min.js"></script>
-      <script src="ASSETS/js/tiny-slider.js"></script>
-      <script src="ASSETS/js/custom.js"></script>
+      <script scr="reactjs/assets/js/bootstrap.bundle.min.js"></script>
+      <script scr="reactjs/assets/js/tiny-slider.js"></script>
+      <script scr="reactjs/assets/js/custom.js"></script>
     </>
   );
 }

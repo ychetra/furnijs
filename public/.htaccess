@@ -1,0 +1,12 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /reactjs/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.html [QSA,L]
+
+# Allow direct access to assets
+<IfModule mod_rewrite.c>
+  RewriteCond %{REQUEST_URI} ^/reactjs/assets/
+  RewriteRule ^ - [L]
+</IfModule> 

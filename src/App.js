@@ -26,7 +26,7 @@ function App() {
   return (
     <PayPalScriptProvider options={initialOptions}>
       <CartProvider>
-        <Router>
+        <Router basename="/reactjs">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />

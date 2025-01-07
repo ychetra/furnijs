@@ -34,7 +34,11 @@ function Contact() {
             </div>
             <div className="col-lg-7">
               <div className="hero-img-wrap">
-                <img src="ASSETS/images/couch.png" className="img-fluid" alt="Couch" />
+                <img
+                  scr="reactjs/assets/images/couch.png"
+                  className="img-fluid"
+                  alt="Couch"
+                />
               </div>
             </div>
           </div>
@@ -186,7 +190,7 @@ function Contact() {
         <div className="container relative">
           <div className="sofa-img">
             <img
-              src="ASSETS/images/sofa.png"
+              scr="reactjs/assets/images/sofa.png"
               alt="Image"
               className="img-fluid"
             />
@@ -198,7 +202,7 @@ function Contact() {
                 <h3 className="d-flex align-items-center">
                   <span className="me-1">
                     <img
-                      src="ASSETS/images/envelope-outline.svg"
+                      scr="reactjs/assets/images/envelope-outline.svg"
                       alt="Image"
                       className="img-fluid"
                     />
@@ -363,9 +367,9 @@ function Contact() {
         </div>
       </footer>
 
-      <script src="ASSETS/js/bootstrap.bundle.min.js"></script>
-      <script src="ASSETS/js/tiny-slider.js"></script>
-      <script src="ASSETS/js/custom.js"></script>
+      <script scr="reactjs/assets/js/bootstrap.bundle.min.js"></script>
+      <script scr="reactjs/assets/js/tiny-slider.js"></script>
+      <script scr="reactjs/assets/js/custom.js"></script>
     </>
   );
 }

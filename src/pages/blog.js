@@ -7,7 +7,7 @@ function Blog() {
         className="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark"
         arial-label="Furni navigation bar"
       >
-        <Menu/>
+        <Menu />
       </nav>
 
       <div className="hero">
@@ -33,7 +33,10 @@ function Blog() {
             </div>
             <div className="col-lg-7">
               <div className="hero-img-wrap">
-                <img src="ASSETS/images/couch.png" className="img-fluid" />
+                <img
+                  scr="reactjs/assets/images/couch.png"
+                  className="img-fluid"
+                />
               </div>
             </div>
           </div>
@@ -47,7 +50,7 @@ function Blog() {
               <div className="post-entry">
                 <a href="#" className="post-thumbnail">
                   <img
-                    src="ASSETS/images/post-1.jpg"
+                    scr="reactjs/assets/images/post-1.jpg"
                     alt="Image"
                     className="img-fluid"
                   />
@@ -72,7 +75,7 @@ function Blog() {
               <div className="post-entry">
                 <a href="#" className="post-thumbnail">
                   <img
-                    src="ASSETS/images/post-2.jpg"
+                    scr="reactjs/assets/images/post-2.jpg"
                     alt="Image"
                     className="img-fluid"
                   />
@@ -97,7 +100,7 @@ function Blog() {
               <div className="post-entry">
                 <a href="#" className="post-thumbnail">
                   <img
-                    src="ASSETS/images/post-3.jpg"
+                    scr="reactjs/assets/images/post-3.jpg"
                     alt="Image"
                     className="img-fluid"
                   />
@@ -122,7 +125,7 @@ function Blog() {
               <div className="post-entry">
                 <a href="#" className="post-thumbnail">
                   <img
-                    src="ASSETS/images/post-1.jpg"
+                    scr="reactjs/assets/images/post-1.jpg"
                     alt="Image"
                     className="img-fluid"
                   />
@@ -147,7 +150,7 @@ function Blog() {
               <div className="post-entry">
                 <a href="#" className="post-thumbnail">
                   <img
-                    src="ASSETS/images/post-2.jpg"
+                    scr="reactjs/assets/images/post-2.jpg"
                     alt="Image"
                     className="img-fluid"
                   />
@@ -172,7 +175,7 @@ function Blog() {
               <div className="post-entry">
                 <a href="#" className="post-thumbnail">
                   <img
-                    src="ASSETS/images/post-3.jpg"
+                    scr="reactjs/assets/images/post-3.jpg"
                     alt="Image"
                     className="img-fluid"
                   />
@@ -197,7 +200,7 @@ function Blog() {
               <div className="post-entry">
                 <a href="#" className="post-thumbnail">
                   <img
-                    src="ASSETS/images/post-1.jpg"
+                    scr="reactjs/assets/images/post-1.jpg"
                     alt="Image"
                     className="img-fluid"
                   />
@@ -222,7 +225,7 @@ function Blog() {
               <div className="post-entry">
                 <a href="#" className="post-thumbnail">
                   <img
-                    src="ASSETS/images/post-2.jpg"
+                    scr="reactjs/assets/images/post-2.jpg"
                     alt="Image"
                     className="img-fluid"
                   />
@@ -247,7 +250,7 @@ function Blog() {
               <div className="post-entry">
                 <a href="#" className="post-thumbnail">
                   <img
-                    src="ASSETS/images/post-3.jpg"
+                    scr="reactjs/assets/images/post-3.jpg"
                     alt="Image"
                     className="img-fluid"
                   />
@@ -312,7 +315,7 @@ function Blog() {
                           <div className="author-info">
                             <div className="author-pic">
                               <img
-                                src="ASSETS/images/person-1.png"
+                                scr="reactjs/assets/images/person-1.png"
                                 alt="Maria Jones"
                                 className="img-fluid"
                               />
@@ -347,7 +350,7 @@ function Blog() {
                           <div className="author-info">
                             <div className="author-pic">
                               <img
-                                src="ASSETS/images/person-1.png"
+                                scr="reactjs/assets/images/person-1.png"
                                 alt="Maria Jones"
                                 className="img-fluid"
                               />
@@ -382,7 +385,7 @@ function Blog() {
                           <div className="author-info">
                             <div className="author-pic">
                               <img
-                                src="ASSETS/images/person-1.png"
+                                scr="reactjs/assets/images/person-1.png"
                                 alt="Maria Jones"
                                 className="img-fluid"
                               />
@@ -407,7 +410,7 @@ function Blog() {
         <div className="container relative">
           <div className="sofa-img">
             <img
-              src="ASSETS/images/sofa.png"
+              scr="reactjs/assets/images/sofa.png"
               alt="Image"
               className="img-fluid"
             />
@@ -419,7 +422,7 @@ function Blog() {
                 <h3 className="d-flex align-items-center">
                   <span className="me-1">
                     <img
-                      src="ASSETS/images/envelope-outline.svg"
+                      scr="reactjs/assets/images/envelope-outline.svg"
                       alt="Image"
                       className="img-fluid"
                     />
@@ -584,9 +587,9 @@ function Blog() {
         </div>
       </footer>
 
-      <script src="ASSETS/js/bootstrap.bundle.min.js"></script>
-      <script src="ASSETS/js/tiny-slider.js"></script>
-      <script src="ASSETS/js/custom.js"></script>
+      <script scr="reactjs/assets/js/bootstrap.bundle.min.js"></script>
+      <script scr="reactjs/assets/js/tiny-slider.js"></script>
+      <script scr="reactjs/assets/js/custom.js"></script>
     </>
   );
 }

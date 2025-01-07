@@ -36,11 +36,11 @@ function Menu() {
 
           <ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
             <li>
-              <Link className="nav-link" to="#"><img src="ASSETS/images/user.svg" /></Link>
+              <Link className="nav-link" to="#"><img src="/reactjs/assets/images/user.svg" /></Link>
             </li>
             <li style={{ position: 'relative' }}>
               <Link className="nav-link" to="/cart">
-                <img src="ASSETS/images/cart.svg" />
+                <img src="/reactjs/assets/images/cart.svg" />
                 {cartCount > 0 && (
                   <span style={{
                     position: 'absolute',

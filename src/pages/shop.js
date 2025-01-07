@@ -60,14 +60,17 @@ function Shop() {
                   <h3 className="product-title">{product.title}</h3>
                   <strong className="product-price">${product.price}</strong>
 
-                  <span 
+                  <span
                     className="icon-cross"
                     onClick={(e) => {
                       e.preventDefault();
                       cartAPI.addToCart(product);
                     }}
                   >
-                    <img src="ASSETS/images/cross.svg" className="img-fluid" />
+                    <img
+                      scr="reactjs/assets/images/cross.svg"
+                      className="img-fluid"
+                    />
                   </span>
                 </a>
               </div>
@@ -80,7 +83,7 @@ function Shop() {
         <div className="container relative">
           <div className="sofa-img">
             <img
-              src="ASSETS/images/sofa.png"
+              scr="reactjs/assets/images/sofa.png"
               alt="Image"
               className="img-fluid"
             />
@@ -92,7 +95,7 @@ function Shop() {
                 <h3 className="d-flex align-items-center">
                   <span className="me-1">
                     <img
-                      src="ASSETS/images/envelope-outline.svg"
+                      scr="reactjs/assets/images/envelope-outline.svg"
                       alt="Image"
                       className="img-fluid"
                     />
@@ -255,9 +258,9 @@ function Shop() {
         </div>
       </footer>
 
-      <script scr="ASSETS/js/bootstrap.bundle.min.js"></script>
-      <script scr="ASSETS/js/tiny-slider.js"></script>
-      <script scr="ASSETS/js/custom.js"></script>
+      <script scr="reactjs/assets/js/bootstrap.bundle.min.js"></script>
+      <script scr="reactjs/assets/js/tiny-slider.js"></script>
+      <script scr="reactjs/assets/js/custom.js"></script>
     </>
   );
 }

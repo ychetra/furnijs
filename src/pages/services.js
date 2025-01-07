@@ -33,7 +33,10 @@ function Services() {
             </div>
             <div className="col-lg-7">
               <div className="hero-img-wrap">
-                <img src="ASSETS/images/couch.png" className="img-fluid" />
+                <img
+                  scr="reactjs/assets/images/couch.png"
+                  className="img-fluid"
+                />
               </div>
             </div>
           </div>
@@ -47,7 +50,7 @@ function Services() {
               <div className="feature">
                 <div className="icon">
                   <img
-                    src="ASSETS/images/truck.svg"
+                    scr="reactjs/assets/images/truck.svg"
                     alt="Image"
                     className="imf-fluid"
                   />
@@ -64,7 +67,7 @@ function Services() {
               <div className="feature">
                 <div className="icon">
                   <img
-                    src="ASSETS/images/bag.svg"
+                    scr="reactjs/assets/images/bag.svg"
                     alt="Image"
                     className="imf-fluid"
                   />
@@ -81,7 +84,7 @@ function Services() {
               <div className="feature">
                 <div className="icon">
                   <img
-                    src="ASSETS/images/support.svg"
+                    scr="reactjs/assets/images/support.svg"
                     alt="Image"
                     className="imf-fluid"
                   />
@@ -98,7 +101,7 @@ function Services() {
               <div className="feature">
                 <div className="icon">
                   <img
-                    src="ASSETS/images/return.svg"
+                    scr="reactjs/assets/images/return.svg"
                     alt="Image"
                     className="imf-fluid"
                   />
@@ -115,7 +118,7 @@ function Services() {
               <div className="feature">
                 <div className="icon">
                   <img
-                    src="ASSETS/images/truck.svg"
+                    scr="reactjs/assets/images/truck.svg"
                     alt="Image"
                     className="imf-fluid"
                   />
@@ -132,7 +135,7 @@ function Services() {
               <div className="feature">
                 <div className="icon">
                   <img
-                    src="ASSETS/images/bag.svg"
+                    scr="reactjs/assets/images/bag.svg"
                     alt="Image"
                     className="imf-fluid"
                   />
@@ -149,7 +152,7 @@ function Services() {
               <div className="feature">
                 <div className="icon">
                   <img
-                    src="ASSETS/images/support.svg"
+                    scr="reactjs/assets/images/support.svg"
                     alt="Image"
                     className="imf-fluid"
                   />
@@ -166,7 +169,7 @@ function Services() {
               <div className="feature">
                 <div className="icon">
                   <img
-                    src="ASSETS/images/return.svg"
+                    scr="reactjs/assets/images/return.svg"
                     alt="Image"
                     className="imf-fluid"
                   />
@@ -203,14 +206,17 @@ function Services() {
             <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
               <a className="product-item" href="#">
                 <img
-                  src="ASSETS/images/product-1.png"
+                  scr="reactjs/assets/images/product-1.png"
                   className="img-fluid product-thumbnail"
                 />
                 <h3 className="product-title">Nordic Chair</h3>
                 <strong className="product-price">$50.00</strong>
 
                 <span className="icon-cross">
-                  <img src="ASSETS/images/cross.svg" className="img-fluid" />
+                  <img
+                    scr="reactjs/assets/images/cross.svg"
+                    className="img-fluid"
+                  />
                 </span>
               </a>
             </div>
@@ -218,14 +224,17 @@ function Services() {
             <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
               <a className="product-item" href="#">
                 <img
-                  src="ASSETS/images/product-2.png"
+                  scr="reactjs/assets/images/product-2.png"
                   className="img-fluid product-thumbnail"
                 />
                 <h3 className="product-title">Kruzo Aero Chair</h3>
                 <strong className="product-price">$78.00</strong>
 
                 <span className="icon-cross">
-                  <img src="ASSETS/images/cross.svg" className="img-fluid" />
+                  <img
+                    scr="reactjs/assets/images/cross.svg"
+                    className="img-fluid"
+                  />
                 </span>
               </a>
             </div>
@@ -233,14 +242,17 @@ function Services() {
             <div className="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
               <a className="product-item" href="#">
                 <img
-                  src="ASSETS/images/product-3.png"
+                  scr="reactjs/assets/images/product-3.png"
                   className="img-fluid product-thumbnail"
                 />
                 <h3 className="product-title">Ergonomic Chair</h3>
                 <strong className="product-price">$43.00</strong>
 
                 <span className="icon-cross">
-                  <img src="ASSETS/images/cross.svg" className="img-fluid" />
+                  <img
+                    scr="reactjs/assets/images/cross.svg"
+                    className="img-fluid"
+                  />
                 </span>
               </a>
             </div>
@@ -289,7 +301,7 @@ function Services() {
                           <div className="author-info">
                             <div className="author-pic">
                               <img
-                                src="ASSETS/images/person-1.png"
+                                scr="reactjs/assets/images/person-1.png"
                                 alt="Maria Jones"
                                 className="img-fluid"
                               />
@@ -324,7 +336,7 @@ function Services() {
                           <div className="author-info">
                             <div className="author-pic">
                               <img
-                                src="ASSETS/images/person-1.png"
+                                scr="reactjs/assets/images/person-1.png"
                                 alt="Maria Jones"
                                 className="img-fluid"
                               />
@@ -359,7 +371,7 @@ function Services() {
                           <div className="author-info">
                             <div className="author-pic">
                               <img
-                                src="ASSETS/images/person-1.png"
+                                scr="reactjs/assets/images/person-1.png"
                                 alt="Maria Jones"
                                 className="img-fluid"
                               />
@@ -384,7 +396,7 @@ function Services() {
         <div className="container relative">
           <div className="sofa-img">
             <img
-              src="ASSETS/images/sofa.png"
+              scr="reactjs/assets/images/sofa.png"
               alt="Image"
               className="img-fluid"
             />
@@ -396,7 +408,7 @@ function Services() {
                 <h3 className="d-flex align-items-center">
                   <span className="me-1">
                     <img
-                      src="ASSETS/images/envelope-outline.svg"
+                      scr="reactjs/assets/images/envelope-outline.svg"
                       alt="Image"
                       className="img-fluid"
                     />
@@ -561,9 +573,9 @@ function Services() {
         </div>
       </footer>
 
-      <script scr="ASSETS/js/bootstrap.bundle.min.js"></script>
-      <script scr="ASSETS/js/tiny-slider.js"></script>
-      <script scr="ASSETS/js/custom.js"></script>
+      <script scr="reactjs/assets/js/bootstrap.bundle.min.js"></script>
+      <script scr="reactjs/assets/js/tiny-slider.js"></script>
+      <script scr="reactjs/assets/js/custom.js"></script>
     </>
   );
 }
